@@ -8,7 +8,7 @@ const About = () => {
       </div>
       <div className="flex flex-col justify-around md:flex-row grow">
         <div className="md:w-1/2 flex flex-col rounded-xl bg-gray-800 m-4">
-          <div className="text-4xl text-white m-5">Experience</div>
+          <div className="md:text-4xl text-3xl text-white m-5">Experience</div>
           <hr />
           <ul className="m-5 font-font1 text-md font-bold md:font-semibold md:text-xl flex flex-col">
             <li className="">
@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <div className="md:w-1/2  flex flex-col rounded-xl bg-gray-800 m-4 ">
-          <div className="text-4xl text-white m-5">Education</div>
+          <div className="md:text-4xl text-3xl text-white m-5">Education</div>
           <hr />
           <ul className="m-5 font-font1 text-sm font-bold md:font-semibold md:text-xl flex gap-5 flex-col">
             <li className="">

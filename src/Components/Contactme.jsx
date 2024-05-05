@@ -31,7 +31,7 @@ const Contactme = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="John "
+                  placeholder="First Name "
                   className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
@@ -42,7 +42,7 @@ const Contactme = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="Doe"
+                  placeholder="Last Name"
                   className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
@@ -54,7 +54,7 @@ const Contactme = () => {
               </label>
               <input
                 type="email"
-                placeholder="johndoe@example.com"
+                placeholder="Enter Email"
                 className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-yellow-400 dark:focus:border-yellow-400 focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>

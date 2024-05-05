@@ -16,7 +16,7 @@ const Profile = ({ scrollToTarget }) => {
           y: -20,
         }}
         transition={{
-          // delay: 0.7,
+          delay: 0.3,
           type: "spring",
           stiffness: 100,
         }}
