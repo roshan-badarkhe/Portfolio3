@@ -12,4 +12,17 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  .scrollbar-thumb::-webkit-scrollbar-thumb {
+    background: white;
+    -webkit-border-radius: 1ex;
+  }
+  /* .scrollbar-corner{
+
+  } */
 }

@@ -3,7 +3,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 const Contactme = () => {
   return (
     <div id="Contact" className="flex flex-col md:flex-row h-full">
-      <hr className="my-8" />
+      <hr className="md:hidden m-10 w-5/6 mx-auto" />
 
       <div className="md:hidden flex justify-center text-white m-8 text-2xl font-font2">
         For any queries, Fill the form

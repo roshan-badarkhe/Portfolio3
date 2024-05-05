@@ -120,7 +120,7 @@ function App() {
           <div className="md:h-full md:w-full snap-start">
             <Skills />
           </div>
-          <div className="md:h-full md:w-full bg-green-400 snap-start">
+          <div className="md:h-full md:w-full snap-start">
             <Projects />
           </div>
           <div className="md:h-full md:w-full snap-start">
