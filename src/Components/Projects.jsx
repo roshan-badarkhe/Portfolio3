@@ -28,7 +28,7 @@ const Projects = () => {
       img: image,
       name: "Far Away Travel",
       description:
-        "Connect Four is a classic two-player game where the objective is to be the first to connect four of your colored discs in a row, either horizontally, vertically, or diagonally, on a grid.It consist of 4x4 grid",
+        "Travel FarAway is a packing list application designed to streamline the packing process for travelers.Whether you're preparing for a weekend getaway or a month-long adventure,It ensures you never forget an essential item again.",
     },
   ];
 
