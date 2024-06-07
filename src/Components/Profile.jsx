@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { FaAnglesDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import Resume from "../assets/files/Roshan-Badarkhe.pdf";
+import Resume from "../assets/files/Roshan-Badarkhe.docx";
 
 const Profile = ({ scrollToTarget }) => {
   return (
