@@ -1,5 +1,6 @@
 import ProjectCard from "../small_comp/ProjectCard";
 import logo from "../assets/logo.png";
+import image1 from "../assets/image1.png";
 import image from "../assets/image.png";
 
 // import pic1 from "../assets/pic1.jpg";
@@ -18,8 +19,14 @@ const Projects = () => {
         "Developed a responsive e-commerce website using React JS, incorporating Redux for state management and React Router. Successfully implemented features like user  authentication, product search, and shopping cart functionality.",
     },
     {
-      img: image,
+      img: image1,
       name: "Connect 4",
+      description:
+        "Connect Four is a classic two-player game where the objective is to be the first to connect four of your colored discs in a row, either horizontally, vertically, or diagonally, on a grid.It consist of 4x4 grid",
+    },
+    {
+      img: image,
+      name: "Far Away Travel",
       description:
         "Connect Four is a classic two-player game where the objective is to be the first to connect four of your colored discs in a row, either horizontally, vertically, or diagonally, on a grid.It consist of 4x4 grid",
     },
