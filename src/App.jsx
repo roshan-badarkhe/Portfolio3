@@ -93,7 +93,6 @@ function App() {
                       stiffness: 900,
                       scale: 1.2,
                       originX: 0,
-                      color: "#facc15",
                     }}
                     onClick={() => scrollToTarget(el)}
                     className="mx-2 cursor-pointer bg-clip-text

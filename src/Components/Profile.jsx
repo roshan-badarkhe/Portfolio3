@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { FaAnglesDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import Resume from "../assets/files/Roshan-Badarkhe.pdf";
 
 const Profile = ({ scrollToTarget }) => {
   return (
@@ -13,17 +14,17 @@ const Profile = ({ scrollToTarget }) => {
           y: -800,
         }}
         animate={{
-          y: -20,
+          y: 0,
         }}
         transition={{
           delay: 0.3,
           type: "spring",
           stiffness: 100,
         }}
-        className="drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)] sm:text-3xl lg:text-5xl bg-clip-text
+        className="drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)] relative bottom-6 md:bottom-0 md:pb-0 sm:text-3xl lg:text-5xl bg-clip-text
        text-transparent bg-gradient-to-r from-yellow-400
           to-orange-400 font-semibold
-        font-font1 flex flex-col gap-4 md:pr-12 "
+        font-font1 flex flex-col gap-3 md:pr-12 "
       >
         <div className="text-xl md:text-5xl">
           Hi there 👋, My Name is Roshan and I&apos;m a ‎
@@ -51,7 +52,15 @@ const Profile = ({ scrollToTarget }) => {
         discover the endless potential that awaits.
       </div>
 
-      <div className="hidden lg:flex text-2xl w-5/6 text-gray-300 lg:flex-col gap-6">
+      <div>
+        <button className="w-fit h-fit px-6 py-2 border-2 my-5 font-semibold text-yellow-400 border-yellow-400">
+          <a href={Resume} download>
+            DOWNLOAD CV
+          </a>
+        </button>
+      </div>
+
+      <div className="hidden lg:flex mt-2 text-2xl w-5/6 text-gray-300 lg:flex-col gap-6">
         <div className="flex justify-center">Want to know more about me?</div>
         <motion.div
           onClick={() => scrollToTarget("About")}

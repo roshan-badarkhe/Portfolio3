@@ -1,5 +1,30 @@
+import ProjectCard from "../small_comp/ProjectCard";
+import logo from "../assets/logo.png";
+import image from "../assets/image.png";
+
 // import pic1 from "../assets/pic1.jpg";
 const Projects = () => {
+  const project_array = [
+    {
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZecMggX5KTy0-zpTYxJIvstegV9-3HgiEw&s",
+      name: "Weather App",
+      description:
+        "A weather app built using React is a web application designed to display realtime weather information for a specific location. It leverages an external weather API to retrieve data and presents it in a user-friendly, visually appealing manner.",
+    },
+    {
+      img: logo,
+      name: "Stylz Clothing",
+      description:
+        "Developed a responsive e-commerce website using React JS, incorporating Redux for state management and React Router. Successfully implemented features like user  authentication, product search, and shopping cart functionality.",
+    },
+    {
+      img: image,
+      name: "Connect 4",
+      description:
+        "Connect Four is a classic two-player game where the objective is to be the first to connect four of your colored discs in a row, either horizontally, vertically, or diagonally, on a grid.It consist of 4x4 grid",
+    },
+  ];
+
   return (
     <div id="Projects" className="h-full w-full md:mt-5 flex flex-col">
       <hr className="md:hidden m-10 w-5/6 mx-auto" />
@@ -8,83 +33,17 @@ const Projects = () => {
         Projects
       </div>
       <div className="grow justify-center">
-        <ul className="flex gap-2 custom-scrollbar scrollbar-thumb list-none h-fit overflow-x-scroll py-[20px] scroll-m-4 snap-x snap-mandatory scroll-p-7 px-0 mx-10">
-          <li className="grow-0 shrink-0 basis-[250px] snap-center">
-            <div className="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-md">
-              <div className="relative">
-                <img
-                  className="w-full h-64 object-cover"
-                  src="https://picsum.photos/100/100"
-                  alt="Image"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Product Sale</h3>
-                <p className="text-gray-700 text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam bibendum auctor felis, vel consequat odio ullamcorper
-                  eu.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li className="grow-0 shrink-0 basis-[250px] snap-center">
-            <div className="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-md">
-              <div className="relative">
-                <img
-                  className="w-full h-64 object-cover"
-                  src="https://picsum.photos/100/100"
-                  alt="Image"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Product Sale</h3>
-                <p className="text-gray-700 text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam bibendum auctor felis, vel consequat odio ullamcorper
-                  eu.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li className="grow-0 shrink-0 basis-[250px] snap-center">
-            <div className="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-md">
-              <div className="relative">
-                <img
-                  className="w-full h-64 object-cover"
-                  src="https://picsum.photos/100/100"
-                  alt="Image"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Product Sale</h3>
-                <p className="text-gray-700 text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam bibendum auctor felis, vel consequat odio ullamcorper
-                  eu.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li className="grow-0 shrink-0 basis-[250px] snap-center">
-            <div className="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-md">
-              <div className="relative">
-                <img
-                  className="w-full h-64 object-cover"
-                  src="https://picsum.photos/100/100"
-                  alt="Image"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">Product Sale</h3>
-                <p className="text-gray-700 text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam bibendum auctor felis, vel consequat odio ullamcorper
-                  eu.
-                </p>
-              </div>
-            </div>
-          </li>
+        <ul className="flex gap-2 grow custom-scrollbar scrollbar-thumb list-none h-fit overflow-x-scroll py-[20px] scroll-m-4 snap-x snap-mandatory scroll-p-7 px-0 mx-10">
+          {project_array.map((el, index) => {
+            return <ProjectCard key={index} project={el} />;
+          })}
+          {/* <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard /> */}
         </ul>
       </div>
     </div>
