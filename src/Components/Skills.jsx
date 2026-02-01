@@ -7,6 +7,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
 import SkillCard from "../small_comp/SkillCard";
 
 const iconlist = [
@@ -55,6 +56,11 @@ const iconlist = [
     color: "text-[#f05033]",
     name: "Git",
   },
+  {
+    icon: <SiTypescript/>,
+    color:"text-[#007acc]",
+    name:"TypeScript"
+  }
 ];
 
 const Skills = () => {

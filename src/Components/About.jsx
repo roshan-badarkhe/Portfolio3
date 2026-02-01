@@ -10,13 +10,21 @@ const About = () => {
         <div className="md:w-1/2 flex flex-col rounded-xl bg-gray-800 m-4">
           <div className="md:text-4xl text-3xl text-white m-5">Experience</div>
           <hr />
-          <ul className="m-5 font-font1 text-md font-bold md:font-semibold md:text-xl flex flex-col">
+          <ul className="m-5 font-font1 text-md font-bold md:font-semibold md:text-xl flex gap-5 flex-col">
             <li className="">
               <div className="h-fit bg-yellow-400  text-[#2b364c] rounded-t-lg text-center">
                 Senior Systems Engineer
               </div>
               <div className="h-fit bg-[#2b364c] md:text-base text-[#facc15] rounded-b-lg text-center">
-                Infosys | Sept 2021 - Present | Pune
+                Infosys | Sept 2021 - June 2024 | Pune
+              </div>
+            </li>
+            <li className="">
+              <div className="h-fit bg-yellow-400  text-[#2b364c] rounded-t-lg text-center">
+                Packaged App Development Analyst
+              </div>
+              <div className="h-fit bg-[#2b364c] md:text-base text-[#facc15] rounded-b-lg text-center">
+                Accenture | July 2024 - Present | Pune
               </div>
             </li>
           </ul>

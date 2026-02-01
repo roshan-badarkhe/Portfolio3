@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { FaAnglesDown } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import Resume from "../assets/files/Roshan-Badarkhe.docx";
+import Resume from "../assets/files/Roshan_Badarkhe.pdf";
 
 const Profile = ({ scrollToTarget }) => {
   return (
@@ -32,9 +32,11 @@ const Profile = ({ scrollToTarget }) => {
             options={{
               // strings: ["Sona", "Bubu", "Majha Baal"],
               strings: [
+                "Sonali's Boyfriend",
                 "Web Developer",
                 "React Developer",
                 "Software Engineer",
+                
               ],
               autoStart: true,
               loop: true,
