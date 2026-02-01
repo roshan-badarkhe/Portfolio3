@@ -32,11 +32,9 @@ const Profile = ({ scrollToTarget }) => {
             options={{
               // strings: ["Sona", "Bubu", "Majha Baal"],
               strings: [
-                "Sonali's Boyfriend",
                 "Web Developer",
                 "React Developer",
-                "Software Engineer",
-                
+                "Software Engineer"
               ],
               autoStart: true,
               loop: true,
